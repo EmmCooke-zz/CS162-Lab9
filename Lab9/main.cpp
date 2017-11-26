@@ -2,19 +2,19 @@
 * Program: Lab 9 - Stack and Queue STL Containers
 * Author: Emmet Cooke
 * Date: 11/25/2017
-* Description: 
+* Description: This is the main file from Lab9.
+* It holds a menu that allows the user to choose
+* which function they would like to use and then
+* calls that function.
 *************************************************/
 #include <iostream>
 using std::cin;
 using std::cout;
 using std::endl;
 
-#include <stack>
-
-#include <queue>
-
 #include <ctime>
 
+#include "lab9Functions.hpp"
 #include "validateInput.hpp"
 #include "Menu.hpp"
 
@@ -43,8 +43,10 @@ int main()
 		switch (menuChoice)
 		{
 		case 1: // queue
+			queueBuffer();
 			break;
 		case 2: // stack
+			stackPalindrome();
 			break;
 		case 3: // exit
 			exitMenu = true;

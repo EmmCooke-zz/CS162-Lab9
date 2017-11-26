@@ -115,11 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="lab9Functions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="validateInput.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="lab9Functions.hpp" />
     <ClInclude Include="Menu.hpp" />
     <ClInclude Include="validateInput.hpp" />
   </ItemGroup>

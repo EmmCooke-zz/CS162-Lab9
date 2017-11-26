@@ -24,12 +24,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lab9Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="validateInput.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Menu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lab9Functions.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
